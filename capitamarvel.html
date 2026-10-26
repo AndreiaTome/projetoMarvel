@@ -1,0 +1,117 @@
+it init<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capitã Marvel</title> <!-- nome da aba do navegador da pagina-->
+    <link rel="stylesheet" href="estilos.css" /> <!--Link responsáveis por linkar a estilização da página-->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="home.css" />
+    <!-- tag body É o "corpo" de toda a página-->
+     <!-- tag responsável por estilizar a página na própria pagina html internamente-->
+    <style> 
+      body {
+        background-image: url("./imagens/capita-marvel.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgba(86, 83, 83, 0.8);
+      }
+    </style> 
+    <!-- background-image:url = Coloca uma foto da Capitã Marvel no fundo da tela.-->
+    <!--background-size: cover:Estica a foto para cobrir a tela inteira sem rasgar nem sobrar espaço.-->
+    <!--background-repeat: no-repeat:Diz para não repetir a mesma imagem lado a lado como um papel de parede-->
+    <!--background-attachment: fixed:Deixa a imagem colada no fundo, para que ela não se mexe quando você rolar a página.-->
+    <!--background-color: Põe uma cor cinza meio transparente por cima para ajudar a ler o texto.-->
+  </head>
+  <body>
+    <header class="cabecalho"> <!--o topo onde fica o menu para navegar-->
+      <nav class="navegacao"> <!--Avisa ao navegador: "Aqui dentro têm botões para andar pelo site".-->
+        <ul class="menu"> <!--Cria uma lista-->
+          <li class="item-menu"> <!--Cria Item da lista-->
+            <a href="index.html" class="link-menu">Home</a> <!--É uma porta mágica (link). Se você clicar na palavra "Home", ele te leva para a página inicial-->
+          </li>
+          <li class="item-menu"><!-- Lista de Itens das paginas de html que contém na pasta do projeto-->
+            <a href="emilyclaus.html" class="link-menu">Emily Claus</a>
+          </li>
+          <li class="item-menu">
+            <a href="capitaoamerica.html" class="link-menu">Capitão América</a>
+          </li>
+          <li class="item-menu">
+            <a href="capitamarvel.html" class="link-menu">Capitã Marvel</a>
+          </li>
+          <li class="item-menu">
+            <a href="homemaranha.html" class="link-menu">Homem Aranha</a>
+          </li>
+          <li class="item-menu">
+            <a href="homemdeferro.html" class="link-menu">Homem de Ferro</a>
+          </li>
+          <li class="item-menu">
+            <a href="contato.html" class="link-menu">Entre em Contato</a>
+          </li> <!-- Fecha a lista de itens do MENU-->
+        </ul> <!-- Fecha a lista MENU-->
+      </nav><!-- fecha a navegação do MENU (paginas)que existem no projeto-->
+    </header> <!-- fecha o cabeçalho de navegação. -->
+
+    <main class="personagens"><!--É o palco principal do site, onde a atração principal fica -->
+      <div class="personagem selecionado" id="conteudo1"> <!--uma caixa de papelão onde guardamos coisas juntas. Esta caixa guarda a imagem e o texto da Capitã Marvel.-->
+        <picture class="container-imagem"> <!--Outra caixinha para proteger a foto.-->
+          <img
+            class="imagem-personagem"
+            src="./imagens/capita-marvel.jpg"
+            alt="personagem Capitã Marvel"
+          /> <!--src: Diz onde a foto está guardada no computador (./imagens/capita-marvel.jpg)-->
+          <!--alt: É uma legenda secreta. Se a foto não carregar, ou se alguém cego estiver usando um leitor de tela, o computador lê essa frase: "personagem Capitã Marvel"-->
+          <!--img: Mostra a foto na tela!-->
+        </picture>
+        <div class="conteudo-personagem"> <!---->
+          <h2 class="*nome-personagem">CAPITÃ MARVEL</h2>
+          <p class="descricao">
+            Apresentada na HQ: Marvel Super Heroes #13 (1968) Filme/Série:
+            Capitã Marvel (2019) e Vingadores: Ultimato (2019) Carol Danvers,
+            após um incidente com uma tecnologia alienígena kree, teve sua
+            estrutura genética alterada, o que a transformou em uma híbrida
+            entre humano e kree. Isso lhe concedeu poderes cósmicos que utilizou
+            para se tornar a super-heroína, Ms. Marvel. Apenas anos mais tarde é
+            que ela assumiria o nome de Capitã Marvel. Poder é o que não falta
+            nela. Suas habilidades cósmicas são apresentadas das mais diversas
+            formas. Aqui estão alguns de seus poderes: Super-força,
+            super-resistência, fator de cura, voo, super-velocidade, projeção e
+            absorção de energia. Tudo isso faz com ela possua um QI alto e com uma inteligente suficiente pra poder
+            construir naves e eqipamentos indestrutivéis usando a energia
+            atômica.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div class="container-rodape">
+        <div class="secao-rodape">
+          <h3>Sobre Nós</h3>
+          <p>
+            Um site dedicado a apresentar informações sobre os incríveis
+            personagens da Marvel.Podendo ser tema da festa de aniversário ou a de seu filho ou filha.
+          </p>
+        </div>
+        <div class="secao-rodape contato">
+          <h3>Contato</h3>
+          <p>Email: contato@marvelpersonagens.com.br</p>
+          <p>Telefone: (27)99919-4805</p>
+          <p>Endereço: Rua dos Vingadores, 1</p>
+        </div>
+        <div class="secao-rodape">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="direitos-reservados">
+        <p>&copy; 2025 Marvel Personagens. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

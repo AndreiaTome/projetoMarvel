@@ -1,0 +1,119 @@
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-personagem {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-personagem:hover {
+  transform: scale(1.05);
+}
+
+.card-personagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.card-personagem h3 {
+  color: #333;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.card-personagem p {
+  color: #666;
+  padding: 0 15px 15px;
+  text-align: center;
+}
+
+.btn-saiba-mais {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-saiba-mais:hover {
+  background-color: #0056b3;
+}
+
+.rodape {
+  background-color: #333;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.container-rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.secao-rodape {
+  margin-bottom: 20px;
+}
+
+.secao-rodape h3 {
+  color: #e64a19;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.secao-rodape p,
+.secao-rodape ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.secao-rodape li {
+  margin-bottom: 5px;
+}
+
+.secao-rodape a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.secao-rodape a:hover {
+  color: #e64a19;
+}
+
+.contato p {
+  margin-bottom: 8px;
+}
+
+.direitos-reservados {
+  background-color: #222;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 30px;
+}
+
+.direitos-reservados p {
+  margin: 0;
+}

@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.personagens {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.personagem {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-imagem {
+  flex-shrink: 0;
+  margin-right: 20px;
+  max-width: 300px;
+}
+
+.imagem-personagem {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.conteudo-personagem {
+  flex-grow: 1;
+}
+
+.nome-personagem {
+  color: #e64a19;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.descricao-personagem {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.subtitulo-personagem {
+  color: #e64a19;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.personagem.selecionado {
+  border: 2px solid #e64a19;
+}

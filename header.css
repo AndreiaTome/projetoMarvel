@@ -1,0 +1,35 @@
+.cabecalho {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.item-menu {
+  cursor: pointer;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link-menu:hover {
+  color: #f0f0f0;
+}
+
+.link-menu.selecionado {
+  color: #e64a19;
+}

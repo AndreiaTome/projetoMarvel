@@ -1,0 +1,82 @@
+.container-contato {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-contato {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-contato h1 {
+  color: #e64a19;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-contato p {
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.campo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.campo-form input[type="text"],
+.campo-form input[type="email"],
+.campo-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.campo-form input[type="text"]:focus,
+.campo-form input[type="email"]:focus,
+.campo-form textarea:focus {
+  outline: none;
+  border-color: #e64a19;
+  box-shadow: 0 0 3px rgba(230, 74, 25, 0.5);
+}
+
+.campo-form textarea {
+  resize: vertical;
+}
+
+.botao-enviar {
+  background-color: #e64a19;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-enviar:hover {
+  background-color: #b83a0d;
+}
